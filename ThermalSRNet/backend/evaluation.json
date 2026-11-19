@@ -1,0 +1,100 @@
+{
+  "checkpoint": "thermalsrnet_best_tempfix.pt",
+  "n_images": 1,
+  "n_fair": 0,
+  "n_lr_only": 1,
+  "alpha": 1.0,
+  "test_dir": "backend/test_data",
+  "evaluated_at": "2026-10-31 22:33:14",
+  "per_image": [
+    {
+      "bicubic": {
+        "physics": 0.00151,
+        "physics_c": 0.06,
+        "mae": null,
+        "rmse": null,
+        "psnr": null,
+        "ssim": null,
+        "mae_c": null,
+        "rmse_c": null,
+        "max_error_c": null,
+        "bias_c": null,
+        "within_tol_pct": null,
+        "time_ms": 0.68
+      },
+      "ours": {
+        "physics": 0.00335,
+        "physics_c": 0.133,
+        "mae": null,
+        "rmse": null,
+        "psnr": null,
+        "ssim": null,
+        "mae_c": null,
+        "rmse_c": null,
+        "max_error_c": null,
+        "bias_c": null,
+        "within_tol_pct": null,
+        "time_ms": 130.05
+      },
+      "alpha": 1.0,
+      "fair": false,
+      "mode": "lr_input",
+      "thermal_size": [
+        32,
+        32
+      ],
+      "min_hr_size": 128,
+      "name": "demo"
+    }
+  ],
+  "summary": {
+    "bicubic": {
+      "mae": null,
+      "mae_std": null,
+      "rmse": null,
+      "rmse_std": null,
+      "psnr": null,
+      "psnr_std": null,
+      "ssim": null,
+      "ssim_std": null,
+      "mae_c": null,
+      "mae_c_std": null,
+      "rmse_c": null,
+      "rmse_c_std": null,
+      "max_error_c": null,
+      "max_error_c_std": null,
+      "within_tol_pct": null,
+      "within_tol_pct_std": null,
+      "physics": null,
+      "physics_std": null,
+      "physics_c": null,
+      "physics_c_std": null,
+      "time_ms": null,
+      "time_ms_std": null
+    },
+    "ours": {
+      "mae": null,
+      "mae_std": null,
+      "rmse": null,
+      "rmse_std": null,
+      "psnr": null,
+      "psnr_std": null,
+      "ssim": null,
+      "ssim_std": null,
+      "mae_c": null,
+      "mae_c_std": null,
+      "rmse_c": null,
+      "rmse_c_std": null,
+      "max_error_c": null,
+      "max_error_c_std": null,
+      "within_tol_pct": null,
+      "within_tol_pct_std": null,
+      "physics": null,
+      "physics_std": null,
+      "physics_c": null,
+      "physics_c_std": null,
+      "time_ms": null,
+      "time_ms_std": null
+    }
+  }
+}
